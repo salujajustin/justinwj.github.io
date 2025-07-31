@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Johnson</title>
+    <style>
+        body {
+            margin: 40px auto;
+            max-width: 650px;
+            line-height: 1.6;
+            font-size: 18px;
+            color: #444;
+            padding: 0 10px;
+            font-family: Georgia, serif;
+        }
+        
+        h1, h2, h3 {
+            line-height: 1.2;
+        }
+        
+        a {
+            color: #0066cc;
+        }
+        
+        a:hover {
+            color: #004499;
+        }
+        
+        .essay-section {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        
+        .essay-content {
+            margin-top: 20px;
+        }
+        
+        .essay-content p {
+            margin-bottom: 24px;
+        }
+        
+        .essay-content ul {
+            margin-bottom: 24px;
+        }
+        
+        .essay-content li {
+            margin-bottom: 16px;
+        }
+        
+        .footnotes {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .footnote {
+            margin-bottom: 8px;
+        }
+        
+        sup {
+            font-size: 12px;
+        }
+        
+        .essay-list {
+            margin-top: 30px;
+        }
+        
+        .essay-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .essay-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="essay-list">
+        <div class="essay-item">
+            <h2>Autogenic Intelligence</h2>
+            <div class="essay-content">
+            <p><strong>Future intelligent systems will be grown instead of engineered</strong>. The next paradigm of diverse intelligence will likely involve entities that learn to compose meaning, value, and culture as a consequence of their perceived environment.</p>
+            
+            <p>The <strong>current approach</strong> of modern AI primarily consists of <strong>feature engineering learning</strong>, in which we engineer a symptom of intelligence, i.e. "intelligent agents exhibit 'x' so we should put the 'x' trait into our model". This creates a myopic view into constructing generally intelligent beings. We should instead offload human discovered learning mechanisms in favor of systems that learn to discover these concepts themselves.</p>
+            
+            <p><strong>What about other bioinspired fields like RL and Evolutionary algorithms?</strong> I like these fields but they miss the broader point. Both describe a biological mechanism with fixed scope and resolution. Reinforcement learning refers to the agent as an individual and focuses on growth and learning within its lifetime. Evolutionary/genetic algorithms refer to a population as a collective and focuses on growth and learning across lifetimes. Both use selection as a mechanism for specific optimization<sup><a href="#fn1">[1]</a></sup>. But maybe this is the wrong conceptual model. Is evolution/RL equivalent to that of an optimizer over a single target? In some sense, we want the model to diverge when something interesting happens.</p>
+            
+            <p>To their credit, there are glimpses of innovation and creativity within these mechanisms, think move 37 in Alphago, yet they are inefficient and hard to come by. It's not so surprising that it identifies actions humans have never done before when millions of trials are performed. Yet we observe that when humans have really deep insights, they are not mining millions of examples but have some fundamental representation about the world that allows serendipity to emerge.</p>
+            
+            <p><strong>What will this look like?</strong> I'll attempt to speculate (will update often):</p>
+            
+            <ul>
+                <li>I expect a <strong>multiagent</strong> society of mind similar to other human and animal intelligence. I assert that intelligence can not emerge under a single agent framework<sup><a href="#fn2">[2]</a></sup>. Further, the whole and the parts are interdependent both with competency in their own domain. In such a system, the parts contribute to the structure or purpose of the whole, and the whole, in turn, gives meaning or function to the parts (a Kantian Whole).</li>
+                
+                <li>If it emerges from silicon, I expect the learning dynamics to look alien to the learning found in biological life. <strong>The underlying substrate directs the abstractions built upon it</strong>. I do not think the digital reconstructions of the brain will yield expected results. It is likely we already have the compute in some form required to get superintelligence but the challenge is to build abstractions that can <strong>efficiently utilize the hardware</strong><sup><a href="#fn3">[3]</a></sup>.</li>
+                
+                <li>The system should experience <strong>continuous</strong> and <strong>indefinite self improvement</strong>. Intelligence is therefore generated naturally and automatically (<strong>Autocurriculum</strong>) arising from the complex social dynamics of the system provided that the environment <strong>empowers</strong> the agents to improve and agents are <strong>plastic</strong> enough to learn. Notions of equilibrium (e.g. <strong>Homeorhesis</strong>) within its parts, are common and diverse.</li>
+                
+                <li>What is being optimized by the whole won't look like optimization. How do we define what is good art or music? <strong>Some concepts might remain ineffable</strong>. Nevertheless, we can still strive for them without a proxy metric which is prone to oversimplification. Objectives are then an emergent property of the constraints of the system. Steering the system in a favorable way will therefore be a <strong>function of constraints rather than a specific target</strong>. Many times, the act of formalizing something collapses its true meaning.</li>
+            </ul>
+            
+            <p><strong>The goal</strong> is to develop theories and systems that create the conditions for intelligence to emerge. In turn, we will learn about the nature of intelligent behavior, reality, and ourselves. Not to mention the unprecedented innovation and positivity that comes as a result. I'll point to <a href="https://www.darioamodei.com/essay/machines-of-loving-grace">Dario Amodei — Machines of Loving Grace</a> for just a few. It is not <em>just</em> about passing a test, benchmark, or winning a game. It's about inventing, generating new knowledge, and amplifying creativity in all its forms.</p>
+            
+            <div class="footnotes">
+                <div class="footnote" id="fn1">
+                    <strong>[1]</strong> There was this experiment I saw with simulating chemotaxis in bacteria. Individual bacteria pay an energy cost to signal food, which is irrational for a single cell, but this altruistic signaling boosts population survival. The persistence of the species as a whole was only possible through non optimal individual actions.
+                </div>
+                <div class="footnote" id="fn2">
+                    <strong>[2]</strong> This is more of a semantic point since the term one vs many is dependent on context but I digress.
+                </div>
+                <div class="footnote" id="fn3">
+                    <strong>[3]</strong> See "The Hardware Lottery" paper.
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer style="margin-top: 60px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 14px; color: #666;">
+        <p>© 2025 Justin Wayne Johnson</p>
+    </footer>
+</body>
+</html>
