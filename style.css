@@ -1,0 +1,87 @@
+        body {
+            margin: 40px auto;
+            max-width: 650px;
+            line-height: 1.6;
+            font-size: 18px;
+            color: #444;
+            padding: 0 10px;
+            font-family: Georgia, serif;
+        }
+        
+        h1, h2, h3 {
+            line-height: 1.2;
+        }
+        
+        a {
+            color: #0066cc;
+        }
+        
+        a:hover {
+            color: #004499;
+        }
+        
+        .essay-section {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        
+        .essay-content {
+            margin-top: 20px;
+        }
+        
+        .essay-content p {
+            margin-bottom: 24px;
+        }
+        
+        .essay-content ul {
+            margin-bottom: 24px;
+        }
+        
+        .essay-content li {
+            margin-bottom: 16px;
+        }
+        
+        .footnotes {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .footnote {
+            margin-bottom: 8px;
+        }
+        
+        sup {
+            font-size: 12px;
+        }
+        
+        .essay-list {
+            margin-top: 30px;
+        }
+        
+        .essay-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .essay-item:last-child {
+            border-bottom: none;
+        }
+        
+        .back-link {
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        
+        .back-link a {
+            text-decoration: none;
+            color: #666;
+        }
+        
+        .back-link a:hover {
+            color: #0066cc;
+        }

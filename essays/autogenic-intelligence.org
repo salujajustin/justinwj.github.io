@@ -1,0 +1,27 @@
+#+TITLE: Autogenic Intelligence
+
+*Future intelligent systems will be grown instead of engineered*. The next paradigm of diverse intelligence will likely involve entities that learn to compose meaning, value, and culture as a consequence of their perceived environment.
+
+The *current approach* of modern AI primarily consists of *feature engineering learning*, in which we engineer a property of intelligence; "this intelligent agent exhibits 'x' (e.g. attention) so we should put the 'x' trait into our model". This creates a myopic view into constructing generally intelligent beings. We should instead offload human discovered learning mechanisms in favor of systems that learn to discover these concepts themselves.
+
+*What about other bioinspired fields like RL and Evolutionary algorithms*? I like these fields but they miss the broader point. Both describe a biological mechanism with fixed scope and resolution. Reinforcement learning refers to the agent as an individual and focuses on growth and learning within its lifetime. Evolutionary and genetic algorithms refer to a population as a collective and focuses on growth and learning across lifetimes. Both use selection as a mechanism for specific optimization[fn:1]. But maybe this is the wrong conceptual model. Is evolution/RL equivalent to that of an optimizer over a single target? In some sense, we want the model to diverge when something interesting happens.
+
+To their credit, there are glimpses of innovation and creativity within these mechanisms, think move 37 in Alphago, yet they are inefficient and hard to come by. It's not so surprising that it identifies actions humans have never done before when millions of trials are performed. Yet we observe that when humans have really deep insights, they are not mining millions of examples but have some fundamental representation about the world that allows serendipity to emerge.
+
+*What will this look like*? I'll attempt to speculate (will update often):
+
+- I expect a *multiagent* society of mind similar to other human and animal intelligence. I assert that intelligence can not emerge under a single agent framework[fn:2]. Further, the whole and the parts are interdependent both with competency in their own domain. In such a system, the parts contribute to the structure or purpose of the whole, and the whole, in turn, gives meaning or function to the parts (a Kantian Whole).
+
+- If it emerges from silicon, I expect the learning dynamics to look alien to the learning found in biological life. *The underlying substrate directs the abstractions built upon it*. I do not think the digital reconstructions of the brain will yield expected results. It is likely we already have the compute in some form required to get superintelligence but the challenge is to build abstractions that can *efficiently utilize the hardware*[fn:3].
+
+- The system should experience *continuous* and *indefinite self improvement*. Intelligence is therefore generated naturally and automatically (*Autocurriculum*) arising from the complex social dynamics of the system provided that the environment *empowers* the agents to improve and agents are *plastic* enough to learn.
+
+- What is being optimized by the whole won't look like optimization. *Objectives are an emergent property of the constraints of the system*. Steering the system in a favorable way will therefore be a function of these constraints rather than a specific target. Maximizing over a single metric is prone to oversimplification and many times the act of formalizing something collapses its true meaning.
+
+*The goal* is to develop theories and systems that create the conditions for intelligence to emerge. In turn, we will learn about the nature of intelligent behavior, reality, and ourselves. Not to mention the unprecedented innovation and positivity that comes as a result. I'll point to [[https://www.darioamodei.com/essay/machines-of-loving-grace][Dario Amodei — Machines of Loving Grace]] for just a few. It is not /just/ about passing a test, benchmark, or winning a game. It's about generating new knowledge and amplifying creativity in all its forms.
+
+[fn:1] There was this experiment I saw with simulating chemotaxis in bacteria. Individual bacteria pay an energy cost to signal food, which is irrational for a single cell, but this altruistic signaling boosts population survival. The persistence of the species as a whole was only possible through non optimal individual actions.
+
+[fn:2] This is more of a semantic point since the term one vs many is dependent on context but I digress.
+
+[fn:3] See "The Hardware Lottery" paper.
